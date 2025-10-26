@@ -1,6 +1,11 @@
 <?php
 include 'config.php';
 include 'header.php';
+date_default_timezone_set('Asia/Jakarta');
+$jam_sekarang = date('H:i');
+$mulai = '08:00';
+$selesai = '10:00';
+$auto_refresh = ($jam_sekarang >= $mulai && $jam_sekarang <= $selesai);
 ?>
 <!DOCTYPE html>
 <html lang="id">

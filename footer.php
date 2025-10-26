@@ -1,3 +1,3 @@
 <footer class="glass-footer">
-    <p>© <?= date('Y'); ?> RS Permata Pamulang | All Rights Reserved</p>
+    <p>© 2025 Gusviyan - IT Dept RS Permata Pamulang | All Rights Reserved</p>
 </footer>
