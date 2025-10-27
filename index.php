@@ -1,6 +1,6 @@
 <?php
 include 'config.php';
-include 'header.php';
+include './includes/header.php';
 date_default_timezone_set('Asia/Jakarta');
 $jam_sekarang = date('H:i');
 $mulai = '08:00';
@@ -13,7 +13,7 @@ $auto_refresh = ($jam_sekarang >= $mulai && $jam_sekarang <= $selesai);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Jadwal Dokter</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="./includes/css/style2.css">
 </head>
 <body>
 
@@ -39,7 +39,7 @@ $auto_refresh = ($jam_sekarang >= $mulai && $jam_sekarang <= $selesai);
         <?php endif; ?>
     </main>
 
-<?php include 'footer.php'; ?>
+<?php include './includes/footer.php'; ?>
 
 </body>
 </html>

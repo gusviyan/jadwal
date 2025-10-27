@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     /* background: linear-gradient(135deg, #a2b8ff, #7ec8e3); */
-    background-image: url('bg.png');
+    background-image: url('../images/bg.png');
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, sans-serif;
     color: #0f172a;

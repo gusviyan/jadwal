@@ -9,7 +9,7 @@ $formattedDate = $now->format('j') . ' ' . $bulan[(int)$now->format('n') - 1] . 
 <header class="glass-header">
     <div class="header-content">
         <div class="header-left">
-            <img src="logo.png" alt="Logo RS" style="height:40px;">
+            <img src="includes\images\logo.png" alt="Logo RS" style="height:40px;">
             <h1>Informasi Praktek Dokter <?= $hariSekarang; ?>, <?= $formattedDate; ?></h1>
         </div>
         <!-- <span class="hari"><?= $hariSekarang; ?></span> -->
