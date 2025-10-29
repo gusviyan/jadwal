@@ -1,14 +1,15 @@
 <?php
 include 'config.php';
 include './includes/header.php';
-date_default_timezone_set('Asia/Jakarta');
-$jam_sekarang = date('H:i');
-$mulai = '08:00';
-$selesai = '10:00';
-$auto_refresh = ($jam_sekarang >= $mulai && $jam_sekarang <= $selesai);
+// date_default_timezone_set('Asia/Jakarta');
+// $jam_sekarang = date('H:i');
+// $mulai = '08:00';
+// $selesai = '10:00';
+// $auto_refresh = ($jam_sekarang >= $mulai && $jam_sekarang <= $selesai);
 ?>
 <!DOCTYPE html>
 <html lang="id">
+<meta http-equiv="refresh" content="60" />
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

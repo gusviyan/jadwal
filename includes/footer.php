@@ -1,3 +1,3 @@
-<footer class="glass-footer">
-    <p>© 2025 Gusviyan - IT Dept RS Permata Pamulang | All Rights Reserved</p>
-</footer>
+ <div class="glass-footer">
+    <span>© IT Dept RS Permata Pamulang | All Right Reserved</span>
+  </div>
